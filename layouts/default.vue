@@ -74,8 +74,8 @@ section.section,.section-page-layout{
   height: 100%;
 }
 .header-wrapper{
-  /* background: #fff; 
-  box-shadow: 0px 2px 6px 0px rgba(46,47,51,0.08);
+  background: #fff; 
+  /* box-shadow: 0px 2px 6px 0px rgba(46,47,51,0.08);
   border-bottom: solid 1px #e6e6e6; */
   position: fixed;
   z-index: 999;
