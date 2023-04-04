@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>关闭</title>
+    <g id="页面-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="网银活动入口（1440）" transform="translate(-1398.000000, -18.000000)">
+            <g id="关闭" transform="translate(1398.000000, 18.000000)">
+                <rect id="矩形" fill="#121314" opacity="0.300000012" x="0" y="0" width="24" height="24"></rect>
+                <g id="icon/关闭" transform="translate(4.000000, 4.000000)">
+                    <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                    <g id="编组" transform="translate(8.000000, 8.000000) rotate(-315.000000) translate(-8.000000, -8.000000) translate(1.200000, 1.200000)" stroke="#FFFFFF" stroke-linejoin="round" stroke-width="1.6">
+                        <g id="直线-4" transform="translate(6.400000, 0.000000)">
+                            <line x1="0.5" y1="0" x2="0.5" y2="13.6" id="直线-3"></line>
+                        </g>
+                        <g id="直线-4备份" transform="translate(6.900000, 6.800000) rotate(-270.000000) translate(-6.900000, -6.800000) translate(6.400000, -0.000000)">
+                            <line x1="0.5" y1="0" x2="0.5" y2="13.6" id="直线-3"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

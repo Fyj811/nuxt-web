@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="16px" viewBox="0 0 24 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="16" rx="2"></rect>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="国旗" transform="translate(-270.000000, -153.000000)">
+            <g id="国旗/瑞士法朗" transform="translate(270.000000, 153.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="矩形" fill="#D8D8D8" xlink:href="#path-1"></use>
+                <g id="瑞士@1x" mask="url(#mask-2)" fill-rule="nonzero">
+                    <polygon id="路径" fill="#E94B35" points="0 0 24 0 24 16 0 16"></polygon>
+                    <polygon id="路径" fill="#FFFFFF" points="10.5 3.5 13.5 3.5 13.5 12.5 10.5 12.5"></polygon>
+                    <polygon id="路径" fill="#FFFFFF" points="7.5 6.5 16.5 6.5 16.5 9.5 7.5 9.5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
