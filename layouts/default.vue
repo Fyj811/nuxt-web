@@ -18,7 +18,7 @@
 
       <a-layout class="m-t-64">
         <LazyWebSider/>
-        <a-layout class="p-l-20 p-r-20">
+        <a-layout class="p-l-20 p-r-20" :style="{'margin-left':store.appStore.sideMargin+'px','animation':'all 0.5s'}">
           <a-layout-content class="p-t-32 p-l-r-20 p-b-50">
             <slot />
           </a-layout-content>

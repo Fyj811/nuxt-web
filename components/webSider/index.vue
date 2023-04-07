@@ -3,13 +3,12 @@
     v-model:collapsed="collapsed" 
     collapsible
     breakpoint="md"
-    collapsed-width="80"
+    :collapsed-width="store.appStore.shrinkWidth"
     @collapse="onCollapse"
     @breakpoint="onBreakpoint"
-    width="256" 
+    :width="store.appStore.slidWidth" 
     class="web-sider-wrapper p-t-30"
   >
-    <UserIdentitySwitch />
     <a-menu 
       v-model:selectedKeys="selectedKeys" 
       mode="inline" class="web-sider-menu" 
@@ -33,6 +32,9 @@
 <script lang="ts" setup>
   import { useI18n } from "vue-i18n";
   import type { MenuProps } from 'ant-design-vue';
+
+  import { useStore } from "@/store";
+  const store = useStore()
   const {t} = useI18n()
   
 
@@ -42,16 +44,16 @@
   
   const collapsed = ref<boolean>(false);
   const onCollapse = (collapsed: boolean, type: string) => {
-    console.log(collapsed, type);
+    console.log(collapsed, type,'手动的');
+    store.appStore.sideMarginComputer(collapsed)
   };
 
   const onBreakpoint = (broken: boolean) => {
-    console.log(broken);
+    console.log(broken,'自动的');
+    store.appStore.sideMarginComputer(broken)
   };
 
-  const changePath = (path:string)=>{
-    // router.push({path:path})
-  }
+
 
   type myObj = {
     key:string;
@@ -96,8 +98,10 @@
 .web-sider-wrapper{
   background-color:#f8f8fa;
   box-shadow: -1px 0px 0px 0px #e8eaed inset;
-  
-  // overflow: auto;
+  position: fixed;
+  height: calc(100vh - 110px);
+  flex: 1 1 auto;
+  overflow: auto;
   // height: calc(100vh - 64px);
   :deep(.ant-layout-sider-children){
     padding-left: 12px;

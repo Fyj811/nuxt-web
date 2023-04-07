@@ -1,8 +1,9 @@
-
-
 import { createStyleImportPlugin,AntdResolve } from 'vite-plugin-style-import'
+import { createSvgIconsPlugin } from 'vite-plugin-svg-icons'
+import path from 'path'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: false,
   app:{
     head:{
       title:'这是网站的标题',
@@ -35,7 +36,8 @@ export default defineNuxtConfig({
     ],
     '@nuxtjs/color-mode',
     'nuxt-svg-icons',
-    'nuxt-swiper'
+    'nuxt-swiper',
+    'nuxt-icons'
     // use inline options
     // [
     //   'nuxt-svg-icons',
@@ -44,7 +46,7 @@ export default defineNuxtConfig({
     //   }
     // ]
   ],
-  nuxtSvgIcons:{
+  nuxtSvgIcons:{ //nuxt-svg-icons
     svg4vue: {
       assetsDirName: 'assets/icons'
     }
@@ -66,6 +68,10 @@ export default defineNuxtConfig({
       createStyleImportPlugin({
         resolves: [AntdResolve()],
       }),
+      createSvgIconsPlugin({
+        iconDirs: [path.resolve(process.cwd(), 'assets/svg')],
+        symbolId: 'icon-[dir]-[name]'
+      })
     ],
     css:{
       preprocessorOptions: {

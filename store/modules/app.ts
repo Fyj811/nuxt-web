@@ -9,6 +9,9 @@ export const appStore = defineStore('app', {
     return {
       version:10,
       lang:useCookie('lang') || 'zh',
+      shrinkWidth:80,//左侧侧边栏收缩的宽度
+      slidWidth:256,//侧边栏的宽度
+      sideMargin:NaN,//右侧主内容距侧边栏的边距  
     }
   },
   getters:{
@@ -20,5 +23,8 @@ export const appStore = defineStore('app', {
     changeLang(lang:string) {
       this.lang = lang;
     },
+    sideMarginComputer(status:boolean){
+      this.sideMargin = status?this.shrinkWidth:this.slidWidth
+    }
   }
 })

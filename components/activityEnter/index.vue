@@ -55,6 +55,7 @@ section{
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 999;
   .exchange_activity{
     background:url('@/assets/image/activity/exchange_activity.png') no-repeat center center;
     background-size: cover;

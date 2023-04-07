@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>图标/12x12/切换</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="12" height="12"></rect>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PanPay网银规范/图标" transform="translate(-718.000000, -1316.000000)">
+            <g id="图标/12x12/切换" transform="translate(718.000000, 1316.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="蒙版"></g>
+                <g id="编组" mask="url(#mask-2)" stroke="#5D6066" stroke-linecap="round" stroke-width="1.6">
+                    <g transform="translate(2.700000, 0.700000)" id="路径">
+                        <path d="M5.63316498,4.96649831 L5.6138803,8.78476641 C5.61157243,9.241714 5.241714,9.61157243 4.78476641,9.6138803 L0.966498312,9.63316498 L0.966498312,9.63316498" transform="translate(3.299832, 7.299832) rotate(-315.000000) translate(-3.299832, -7.299832) "></path>
+                        <path d="M5.63316498,0.966498312 L5.6138803,4.78476641 C5.61157243,5.241714 5.241714,5.61157243 4.78476641,5.6138803 L0.966498312,5.63316498 L0.966498312,5.63316498" transform="translate(3.299832, 3.299832) scale(1, -1) rotate(-315.000000) translate(-3.299832, -3.299832) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>个人未选</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PanPay网银规范/图标" transform="translate(-626.000000, -1056.000000)">
+            <g id="个人未选" transform="translate(626.000000, 1056.000000)">
+                <circle id="椭圆形" fill="#DCDDE0" cx="14" cy="14" r="14"></circle>
+                <g id="编组-29" transform="translate(7.700000, 6.300000)" fill="#6A6D73">
+                    <rect id="矩形" x="3.38896552" y="0" width="5.84296525" height="7.83153745" rx="2.92148262"></rect>
+                    <path d="M2.91406045,9.57187911 L9.68593955,9.57187911 C11.2953307,9.57187911 12.6,10.8765484 12.6,12.4859396 L12.6,13.5882353 C12.6,14.5888453 11.7888453,15.4 10.7882353,15.4 L1.81176471,15.4 C0.811154689,15.4 7.88944102e-16,14.5888453 0,13.5882353 L0,12.4859396 C-1.97093571e-16,10.8765484 1.3046693,9.57187911 2.91406045,9.57187911 Z" id="矩形"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

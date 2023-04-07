@@ -2,8 +2,9 @@
   <div>
     
     <section class="p-l-28 p-r-28 app-flex app-justify-content-space-between app-align-items-center">
-      <div class="full-header-left">
+      <div class="full-header-left app-flex app-align-items-center">
         <nuxt-link to="/"><img class="logo" src="@/assets/logo.png" alt="" srcset=""></nuxt-link>
+        <UserIdentitySwitch  class="m-l-40"/>
       </div>
       <div class="full-header-right">
         <!-- 微信入账通知 -->

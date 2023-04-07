@@ -1,10 +1,24 @@
 <template>
-  <div class="switch-wrapper m-b-22">
+  <div class="switch-wrapper">
     <a-dropdown :trigger="['click']">
       <a-button size="large" style="width:100%;">
         Button
-        <DownOutlined />
+        <!-- <DownOutlined />
+        <nuxt-icon name="user_switch" filled></nuxt-icon> -->
+        <svg-icon name="user_switch"/>
+        <svg-icon name="switch_buiness_active"/>
+        <svg-icon name="switch_buiness"/>
+        <svg-icon name="switch_personal"/>
+        <svg-icon name="switch_personal_active"/>
+
+        <svg-icon name="CAD" />
       </a-button>
+
+      <div>
+
+      </div>
+
+
       <template #overlay>
         <a-menu>
           <a-menu-item key="0">
